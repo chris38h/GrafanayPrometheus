@@ -1,5 +1,5 @@
-#Usa una imagen base de nginx
+# Usa una imagen base de nginx
 FROM nginx:alpine
 
-#Copia los archivos de la pagina web al directorio 
-COPY ./usr/share/nginx/html
+# Copia los archivos de la página web al directorio de contenido de nginx
+COPY ./usr/share/nginx/html /usr/share/nginx/html
